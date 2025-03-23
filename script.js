@@ -27,7 +27,7 @@ if (settingsstuff().homepage) {
     pre = "start"
 }
 let loadpre = 0;
-let meourl = 'https://eris.pages.dev/meo';
+let meourl = 'https://delusionsGH.github.io/meo';
 
 let bridges = ['Discord', 'SplashBridge', 'gc'];
 
@@ -35,7 +35,7 @@ let ipBlocked = false;
 let openprofile = false;
 
 const communityDiscordLink = "https://discord.com/invite/THgK9CgyYJ";
-const server = "wss://server.meower.org/?v=1";
+const server = "ws://localhost:3000/";
 
 const pfpCache = {};
 const postCache = { livechat: [] };  // {chatId: [post, post, ...]} (up to 25 posts for inactive chats)
