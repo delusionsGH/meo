@@ -35,7 +35,7 @@ let ipBlocked = false;
 let openprofile = false;
 
 const communityDiscordLink = "https://discord.com/invite/THgK9CgyYJ";
-const server = "ws://localhost:3000/";
+const server = "wss://api.meower.org/v0/cloudlink?v=1";
 
 const pfpCache = {};
 const postCache = { livechat: [] };  // {chatId: [post, post, ...]} (up to 25 posts for inactive chats)
